@@ -24,6 +24,14 @@
     <main>
       <h1>Welcome to Cook with Me!</h1>
       <p>Your CookBook with delicious recipes and cooking tips.</p>
+      display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+main h1 {
+  grid-column: span 2; 
+}
     </main>
     <footer>
       <p>© 2024 Cook with Me. All rights reserved.</p>
