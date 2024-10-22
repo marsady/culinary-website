@@ -10,7 +10,8 @@
   <body>
     <header>
       <img src="steak free.jpg" alt="Culinary Banner" style="width: 100%; height: 50;">
-      <h2>Welcome to Cook with Me</h2>
+      <h2>Welcome, Let's Cook with Me!</h2>
+      
       <nav>
         <a href="index.html">Home</a> |
         <a href="recipes.html">Recipes</a> |
@@ -33,6 +34,17 @@
 main h1 {
   grid-column: span 2; 
 }
+      <h2 class="welcome-text">Welcome, let's cook with me</h2>
+      <p>Explore the best recipes, cooking tips, and more!</p>
+
+      <!-- Search Bar -->
+      <input type="text" id="searchBar" placeholder="Search for recipes..." onkeyup="searchRecipes()">
+      <ul id="recipeList">
+        <li><a href="tomato-salad.html">Tomato & Cheese Salad</a></li>
+        <li><a href="pasta-recipe.html">Creamy Pasta</a></li>
+      </ul>
+
+    </main>
     </main>
     <footer>
       <p>© 2024 Cook with Me. All rights reserved.</p>
